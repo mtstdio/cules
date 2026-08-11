@@ -56,6 +56,7 @@ payload:
   - '+.gvt1-cn.com'
   - '+.gvt2-cn.com'
   - '+.gvt3-cn.com'
+  - '+.googlezip.net'       # Google Play 下载隧道/CDN
   - '+.gcr.io'              # 容器镜像 (开发必备)
   - '+.googlesource.com'    # 源代码仓库
   - '+.ggpht.com'           # 存储用户头像、商店图片 (已在 YouTube 列表则可忽略)
