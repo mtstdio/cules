@@ -48,9 +48,14 @@ payload:
   - '+.google.ru'
 
   # === 补齐下载与分发 (解决 Chrome/Play 商店更新问题) ===
+  # Google Play / YouTube 在部分网络环境会返回这些区域化 CDN 域名。
+  - '+.xn--ngstr-lra8j.com'
   - '+.gvt1.com'
   - '+.gvt2.com'
   - '+.gvt3.com'
+  - '+.gvt1-cn.com'
+  - '+.gvt2-cn.com'
+  - '+.gvt3-cn.com'
   - '+.gcr.io'              # 容器镜像 (开发必备)
   - '+.googlesource.com'    # 源代码仓库
   - '+.ggpht.com'           # 存储用户头像、商店图片 (已在 YouTube 列表则可忽略)
@@ -70,4 +75,3 @@ payload:
   - '+.google.org'
   - '+.blogger.com'         # 博客平台
   - '+.blogspot.com'        # 博客平台
-
